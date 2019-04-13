@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name"
+        android:textColor="@color/primary_text"
+        android:textSize="15sp"
+        android:id="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text1"
+        android:text="@string/last_name"
+        android:textColor="@color/primary_light"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text2"
+        android:layout_marginLeft="239dp"
+        android:text="@string/enter_your_email"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_alignLeft="@id/text3"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="15sp"
+        android:id="@+id/text4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    //This code is having error, please run and fix this before using this as reference//
+
+</RelativeLayout>
